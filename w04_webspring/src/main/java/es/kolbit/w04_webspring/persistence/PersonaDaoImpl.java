@@ -13,7 +13,7 @@ public class PersonaDaoImpl implements PersonaDao {
 	private List<Persona> repo = new ArrayList<Persona>();
 	
 	public PersonaDaoImpl() {
-		repo.add(new Persona("Charly", "García"));
+		repo.add(new Persona(128, "Charly", "García", "606123456", "Argentina"));
 	}
 	
 	@Override
