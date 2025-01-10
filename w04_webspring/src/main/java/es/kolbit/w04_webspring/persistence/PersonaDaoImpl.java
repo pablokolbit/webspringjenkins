@@ -14,6 +14,7 @@ public class PersonaDaoImpl implements PersonaDao {
 	
 	public PersonaDaoImpl() {
 		repo.add(new Persona(128, "Charly", "García", "606123456", "Argentina"));
+		repo.add(new Persona(2493, "Fito", "Paez", "701987654", "Rosario"));
 	}
 	
 	@Override
